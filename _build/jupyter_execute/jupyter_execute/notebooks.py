@@ -43,16 +43,10 @@
 # In[1]:
 
 
-print(4*5, 'equals to 20')
+jupyter-book build mybookname/
 
 
-# In[2]:
-
-
-#jupyter-book build mybookname/
-
-
-# In[3]:
+# In[ ]:
 
 
 from matplotlib import rcParams, cycler
@@ -61,7 +55,7 @@ import numpy as np
 plt.ion()
 
 
-# In[4]:
+# In[ ]:
 
 
 # Fixing random state for reproducibility
