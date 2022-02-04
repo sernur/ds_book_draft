@@ -53,7 +53,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Here’s my sample title" href="mymarkdownfile.html" />
+    <link rel="prev" title="Content with notebooks" href="notebooks.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -119,13 +119,13 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="notebooks.html">
-     Content with notebooks
+    <a class="reference internal" href="mymarkdownfile.html">
+     Here’s my sample title
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="mymarkdownfile.html">
-     Here’s my sample title
+    <a class="reference internal" href="notebooks.html">
+     Content with notebooks
     </a>
    </li>
    <li class="toctree-l2 current active">
@@ -342,8 +342,8 @@ We will denote with <span class="math notranslate nohighlight">\(U\)</span> lett
 Since we are picking randomly one coin, <span class="math notranslate nohighlight">\(\mathbb{P}(U)=\mathbb{P}(F)=1/2\)</span>.</p>
 <p>Let 5H represent the case where we get 5 heads in a row.  Then  we want to find the probability that we are flipping the unfair coin, given that we saw 5 heads in a row.
 i.e. <span class="math notranslate nohighlight">\(\mathbb{P}(U|5H)\)</span>.
-If we are given an unfair coin and then the probability of getting 5 heads in a row would be 1. i.e. <span class="math notranslate nohighlight">\(\mathbb{P}(5H|U)=1\)</span>. With the same logic if we have fair coin and then the probability of getting 5 heads in a row would be 1/32. i.e. <span class="math notranslate nohighlight">\(\mathbb{P}(5H|F)=\frac{1}{2^5}.\)</span> We actually collected all the information we want. Now using Bayes rule we get
-\begin{equation}
+If we are given an unfair coin and then the probability of getting 5 heads in a row would be 1. i.e. <span class="math notranslate nohighlight">\(\mathbb{P}(5H|U)=1\)</span>. With the same logic if we have fair coin and then the probability of getting 5 heads in a row would be 1/32. i.e. <span class="math notranslate nohighlight">\(\mathbb{P}(5H|F)=\frac{1}{2^5}.\)</span> We actually collected all the information we want. Now using Bayes rule we get</p>
+<p>\begin{equation}
 \mathbb{P}(U|5H)=\dfrac{\mathbb{P}(5H|U)\mathbb{P}(U)}{\mathbb{P}(5H|U)\mathbb{P}(U)+\mathbb{P}(5H|F)\mathbb{P}(F)}=\frac{\frac{1}{2}*1}{\frac{1}{2}<em>1+\frac{1}{2}</em>\frac{1}{2^5}}=\frac{32}{33}= 0.9696969696969697
 \end{equation}</p>
 <div class="cell docutils container">
@@ -398,7 +398,7 @@ If we are given an unfair coin and then the probability of getting 5 heads in a 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(0.04, 0.01)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(0.02, 0.01)
 </pre></div>
 </div>
 </div>
@@ -430,11 +430,11 @@ If we are given an unfair coin and then the probability of getting 5 heads in a 
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="mymarkdownfile.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="notebooks.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Here’s my sample title</p>
+            <p class="prev-next-title">Content with notebooks</p>
         </div>
     </a>
 </div>
