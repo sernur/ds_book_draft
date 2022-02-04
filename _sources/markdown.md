@@ -123,3 +123,10 @@ in-line with the rest of your content.
 
 For more information about executing computational content with Jupyter Book,
 see [The MyST-NB documentation](https://myst-nb.readthedocs.io/).
+
+
+```{code-cell} ipython3
+a = "This is some"
+b = "Python code!"
+print(f"{a} {b}")
+```
